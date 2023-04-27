@@ -47,7 +47,7 @@ function iniciarTablero(){
 }
 function ponerMinas(){
     minas = 0;
-    while(minas<10){
+    while(minas<15){
         while(true){
             fila=Math.floor(Math.random()*(10-0));
             colu=Math.floor(Math.random()*(10-0));
