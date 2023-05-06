@@ -109,7 +109,7 @@ function jugar(fila,colu){
     }
     else{
         destaparcelda(fila,colu);
-        if(contCeldasDestapadas() == 90){
+        if(contCeldasDestapadas() == 85){
             fin = Date.now();
             agregarRecord();
             $(".btn").prop("onclick",null);
